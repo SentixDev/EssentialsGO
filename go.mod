@@ -1,4 +1,4 @@
-module github.com/xerenahmed/essentialsgo
+module github.com/sentixdev/essentialsgo
 
 go 1.16
 
@@ -18,5 +18,3 @@ require (
 	golang.org/x/sys v0.0.0-20220818161305-2296e01440c6 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 )
-
-replace github.com/xerenahmed/essentialsgo => github.com/sentixdev/essentialsgo v1.0.0
