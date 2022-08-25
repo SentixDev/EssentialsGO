@@ -16,7 +16,15 @@ func StartConsole() {
 		fmt.Println("Type help for commands.")
 		// I don't use fmt.Scan() because the fmt package intentionally filters out whitespaces, this is how it is implemented.
 		scanner := bufio.NewScanner(os.Stdin)
+		reader := bufio.NewReader(os.Stdin)
+
 		for {
+			text, _ := reader.ReadString('\n')
+			text = strings.Replace(text, "\n", "", -1)
+			if strings.Compare("hi", text) == 0 {
+				fmt.Println("Hello World!")
+			}
+
 			if scanner.Scan() {
 				commandString := scanner.Text()
 				if len(commandString) == 0 {
