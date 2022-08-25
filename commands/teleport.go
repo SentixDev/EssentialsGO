@@ -5,8 +5,8 @@ import (
 	"github.com/df-mc/dragonfly/server/cmd"
 	"github.com/df-mc/dragonfly/server/player"
 	"github.com/go-gl/mathgl/mgl64"
-	"github.com/xerenahmed/essentialsgo/commands/op"
-	"github.com/xerenahmed/essentialsgo/console"
+	"github.com/sentixdev/essentialsgo/commands/op"
+	"github.com/sentixdev/essentialsgo/console"
 )
 
 type TeleportXYZ struct {

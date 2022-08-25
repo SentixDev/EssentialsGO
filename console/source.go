@@ -5,7 +5,7 @@ import (
 	"github.com/df-mc/dragonfly/server/cmd"
 	"github.com/df-mc/dragonfly/server/world"
 	"github.com/go-gl/mathgl/mgl64"
-	"github.com/xerenahmed/essentialsgo/global"
+	"github.com/sentixdev/essentialsgo/global"
 )
 
 type Console struct{}

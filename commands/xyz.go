@@ -3,7 +3,7 @@ package commands
 import (
 	"github.com/df-mc/dragonfly/server/cmd"
 	"github.com/df-mc/dragonfly/server/player"
-	"github.com/xerenahmed/essentialsgo/console"
+	"github.com/sentixdev/essentialsgo/console"
 )
 
 type XYZ struct{}

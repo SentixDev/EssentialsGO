@@ -3,12 +3,12 @@ package essentialsgo
 import (
 	"github.com/df-mc/dragonfly/server"
 	"github.com/df-mc/dragonfly/server/cmd"
-	"github.com/xerenahmed/essentialsgo/commands"
-	"github.com/xerenahmed/essentialsgo/commands/gamemode"
-	"github.com/xerenahmed/essentialsgo/commands/op"
-	"github.com/xerenahmed/essentialsgo/commands/time"
-	"github.com/xerenahmed/essentialsgo/console"
-	"github.com/xerenahmed/essentialsgo/global"
+	"github.com/sentixdev/essentialsgo/commands"
+	"github.com/sentixdev/essentialsgo/commands/gamemode"
+	"github.com/sentixdev/essentialsgo/commands/op"
+	"github.com/sentixdev/essentialsgo/commands/time"
+	"github.com/sentixdev/essentialsgo/console"
+	"github.com/sentixdev/essentialsgo/global"
 )
 
 func RegisterCommands(server *server.Server) {

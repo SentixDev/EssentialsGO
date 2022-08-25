@@ -2,8 +2,8 @@ package commands
 
 import (
 	"github.com/df-mc/dragonfly/server/cmd"
-	"github.com/xerenahmed/essentialsgo/commands/op"
-	"github.com/xerenahmed/essentialsgo/global"
+	"github.com/sentixdev/essentialsgo/commands/op"
+	"github.com/sentixdev/essentialsgo/global"
 )
 
 type Stop struct{}
