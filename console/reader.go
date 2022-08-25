@@ -21,6 +21,7 @@ func StartConsole() {
 		for {
 			text, _ := reader.ReadString('\n')
 			text = strings.Replace(text, "\n", "", -1)
+			fmt.Println(text)
 			if strings.Compare("hi", text) == 0 {
 				fmt.Println("Hello World!")
 			}
